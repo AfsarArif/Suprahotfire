@@ -123,7 +123,7 @@ const CarSelector: React.FC<CarSelectorProps> = ({ onSelectCar }) => {
           </Text>
           <ImageBackground
             style={styles.chevronIcon}
-            //source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/chevrondown.png')}
+            source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/chevrondown.png')}
             resizeMode="contain"
           />
         </View>
