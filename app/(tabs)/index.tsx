@@ -480,21 +480,14 @@ export default function App() {
                   marginBottom: 40,
                 }}
               >
-                Understanding fuel analysis is vital for Toyota employees as it
-                supports the development of efficient, sustainable vehicles that
-                meet customer needs and environmental standards. This knowledge
-                enhances innovation in fuel efficiency, hybrid technology, and
-                emissions reduction, ensuring Toyota remains a leader in automotive
-                excellence and sustainability.{'\n\n'}Understanding fuel analysis is
-                vital for Toyota employees as it supports the development of
-                efficient, sustainable vehicles
+               Improving fuel consumption through fuel analysis involves leveraging real-time data from IoT sensors to monitor usage patterns and driving behaviors. By analyzing this data with AI tools, inefficiencies like excessive idling, aggressive driving, or suboptimal routes can be identified and addressed. Predictive analytics can recommend proactive maintenance to keep engines running efficiently, while route optimization tools minimize unnecessary mileage. Providing drivers with actionable feedback based on fuel analysis further encourages eco-friendly driving habits, leading to reduced fuel consumption and lower costs.
               </Text>
             </View>
             <TouchableOpacity 
       style={styles.navigationButton}
       onPress={() => router.push('/ThrottleSim')}
     >
-      <Text style={styles.buttonText}>Learn More</Text>
+      <Text style={styles.buttonText}>Real Time Analysis</Text>
     </TouchableOpacity>
           </View>
         </View>
