@@ -1,5 +1,4 @@
-import { View, type ViewProps } from 'react-native';
-
+import { View, StyleSheet, type ViewProps } from 'react-native';
 import { useThemeColor } from '@/hooks/useThemeColor';
 
 export type ThemedViewProps = ViewProps & {
@@ -8,7 +7,20 @@ export type ThemedViewProps = ViewProps & {
 };
 
 export function ThemedView({ style, lightColor, darkColor, ...otherProps }: ThemedViewProps) {
-  const backgroundColor = useThemeColor({ light: lightColor, dark: darkColor }, 'background');
+  // Get the background color based on the theme
+  const backgroundColor =
+    useThemeColor({ light: lightColor, dark: darkColor }, 'background') || '#D32F2F'; // Default to red if no theme color
 
-  return <View style={[{ backgroundColor }, style]} {...otherProps} />;
+  return (
+    <View
+      style={[styles.fullScreen, { backgroundColor }, style]} // Ensure full-screen layout
+      {...otherProps}
+    />
+  );
 }
+
+const styles = StyleSheet.create({
+  fullScreen: {
+    flex: 1, // Ensure it occupies the full screen
+  },
+});
