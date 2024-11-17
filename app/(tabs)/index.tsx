@@ -11,6 +11,7 @@ import {
   StyleSheet,
   Dimensions,
 } from 'react-native';
+import { router } from 'expo-router';
 
 const windowWidth = Dimensions.get('window').width;
 const BAR_CONTAINER_WIDTH = windowWidth * 0.6;
@@ -395,6 +396,12 @@ export default function App() {
                 efficient, sustainable vehicles
               </Text>
             </View>
+            <TouchableOpacity 
+      style={styles.navigationButton}
+      onPress={() => router.push('/ThrottleSim')}
+    >
+      <Text style={styles.buttonText}>Learn More</Text>
+    </TouchableOpacity>
           </View>
         </View>
       </ScrollView>
@@ -451,6 +458,21 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  navigationButton: {
+    backgroundColor: '#eb0a1e',  // Toyota red color
+    paddingVertical: 15,
+    paddingHorizontal: 30,
+    borderRadius: 25,
+    alignSelf: 'center',
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: '600',
+    textAlign: 'center',
   },
   circleText: {
     fontSize: 16,
