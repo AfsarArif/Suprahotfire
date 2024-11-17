@@ -1,4 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import * as path from 'path';
+import carFile from '../../HackUTD24.ToyotaCars.json';
+
 import {
   View,
   Text,
@@ -11,7 +14,7 @@ import {
   StyleSheet,
   Dimensions,
 } from 'react-native';
-import { router } from 'expo-router';
+import { router } from 'expo-router'
 
 const windowWidth = Dimensions.get('window').width;
 const BAR_CONTAINER_WIDTH = windowWidth * 0.6;
@@ -19,24 +22,80 @@ const BAR_CONTAINER_WIDTH = windowWidth * 0.6;
 interface Car {
   id: string;
   name: string;
+
 }
+
+interface CarData {
+  ModelYear: number;
+  Division: string;
+  Carline: string;
+  Index: number;
+  EngDispl: number;
+  CityCO2: number;
+  HwyCO2: number;
+  CombCO2: number;
+  CityFE: number;
+  HwyFE: number;
+  CombFE: number;
+  EstimatedWeight: number;
+  ImageURL: string;
+}
+
+type GroupedByCarline = {
+  [carline: string]: CarData[];
+};
+
+// Function to group data by Carline
+const groupByCarline = (data: CarData[]): GroupedByCarline => {
+  return data.reduce((acc: GroupedByCarline, entry: CarData) => {
+    const { Carline } = entry;
+    if (!acc[Carline]) {
+      acc[Carline] = [];
+    }
+    acc[Carline].push(entry);
+    return acc;
+  }, {});
+};
+
+// Main function to read and process JSON
+const processCarsFile = () => {
+    const carData: CarData[] = carFile.map((entry: any) => ({
+      ModelYear: entry["Model Year"],
+      Division: entry.Division,
+      Carline: entry.Carline,
+      Index: entry["Index (Model Type Index)"],
+      EngDispl: entry["Eng Displ"],
+      CityCO2: entry["City CO2 Rounded Adjusted"] || 0,
+      HwyCO2: entry["Hwy CO2 Rounded Adjusted"] || 0,
+      CombCO2: entry["Comb CO2 Rounded Adjusted (as shown on FE Label)"] || 0,
+      CityFE: entry["City FE (Guide) - Conventional Fuel"],
+      HwyFE: entry["Hwy FE (Guide) - Conventional Fuel"],
+      CombFE: entry["Comb FE (Guide) - Conventional Fuel"],
+      EstimatedWeight: entry["Curbweight"],
+      ImageURL: entry["ImageURL"] || '',
+    }));
+
+    const groupedData = groupByCarline(carData);
+    return groupedData;
+
+};
+
 
 interface CarSelectorProps {
   onSelectCar: (car: Car) => void;
 }
 
 const cars: Car[] = [
-  { id: '1', name: 'UX 300h' },
-  { id: '2', name: 'Corolla' },
-  { id: '3', name: 'ES 250 AWD' },
-  { id: '4', name: 'ES 300h' },
-  { id: '5', name: 'ES 350' },
-  { id: '6', name: 'CAMRY HEV AWD LE' },
-  { id: '7', name: 'TOYOTA CROWN AWD' },
-  { id: '8', name: 'TUNDRA 2WD' },
-  { id: '9', name: 'NX 250' },
-  { id: '10', name: 'NX 350 AWD' },
-  { id: '11', name: 'SEQUOIA 2WD' }
+  { id: '1', name: 'Corolla' },
+  { id: '2', name: 'ES 250 AWD' },
+  { id: '3', name: 'ES 300h' },
+  { id: '4', name: 'ES 350' },
+  { id: '5', name: 'CAMRY HEV AWD LE' },
+  { id: '6', name: 'TOYOTA CROWN AWD' },
+  { id: '7', name: 'TUNDRA 2WD' },
+  { id: '8', name: 'NX 250' },
+  { id: '9', name: 'NX 350 AWD' },
+  { id: '10', name: 'SEQUOIA 2WD' }
 ];
 
 const CarSelector: React.FC<CarSelectorProps> = ({ onSelectCar }) => {
@@ -64,7 +123,7 @@ const CarSelector: React.FC<CarSelectorProps> = ({ onSelectCar }) => {
           </Text>
           <ImageBackground
             style={styles.chevronIcon}
-            source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/chevrondown.png')}
+            //source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/chevrondown.png')}
             resizeMode="contain"
           />
         </View>
@@ -106,21 +165,56 @@ const calculateWidth = (value: number) => {
   return (value / maxMPG) * BAR_CONTAINER_WIDTH;
 };
 
-const yearData = [
-  { year: 2021, highway: 28, combined: 32, city: 22 },
-  { year: 2022, highway: 30, combined: 33, city: 24 },
-  { year: 2023, highway: 32, combined: 34, city: 26 },
-  { year: 2024, highway: 33, combined: 35, city: 27 },
-  { year: 2025, highway: 35, combined: 36, city: 28 },
-];
 
 export default function App() {
-  const [selectedCar, setSelectedCar] = useState({ id: '1', name: 'Camry' });
+
+  const [selectedCar, setSelectedCar] = useState({ id: '1', name: 'Corolla' });
+  const [yearData, setYearData] = useState([ //default values
+    { year: 2021, highway: 32, combined: 32, city: 32 },
+    { year: 2022, highway: 33, combined: 33, city: 33 },
+    { year: 2023, highway: 32, combined: 34, city: 26 },
+    { year: 2024, highway: 33, combined: 35, city: 27 },
+    { year: 2025, highway: 35, combined: 36, city: 28 },
+  ]);
+  const [groupedData, setGroupedData] = useState<GroupedByCarline | null>(null);
+  const [emissionsData, setEmissionsData] = useState<CarData | null>(null);
+  useEffect(() => {
+    const data = processCarsFile();
+    setGroupedData(data);
+  }, []);
+  
+  useEffect(() => {
+    if (groupedData && selectedCar) {
+      const carData = groupedData[selectedCar.name.toUpperCase()]; 
+      if (carData) {
+        const updatedYearData = carData.map((entry) => ({
+          year: entry.ModelYear,
+          highway: entry.HwyFE,
+          combined: entry.CombFE,
+          city: entry.CityFE,
+        }));
+        setEmissionsData(carData.filter((entry: CarData) => entry.ModelYear === 2025)[0]);
+        setYearData(updatedYearData);
+      }
+    }
+  }, [groupedData, selectedCar]);
+
 
   const handleCarSelect = (car: React.SetStateAction<{ id: string; name: string; }>) => {
     setSelectedCar(car);
-    // You can add additional logic here to update other parts of your app
-    // based on the selected car
+  };
+
+  const carImages: { [key: string]: any } = {
+    "Corolla": require('../../assets/images/kisspng-2018-toyota-corolla-car-chevrolet-vectra-honda-civ-toyota-corolla-5b191fc6a43d43.2476368015283731906727.png'),
+    "ES 250 AWD": require('../../assets/images/es-250.png'),
+    "ES 300h": require('../../assets/images/Lexuses350.png'), 
+    "ES 350": require('../../assets/images/Lexuses350.png'),
+    "CAMRY HEV AWD LE": require('../../assets/images/model1camry.png'),
+    "TOYOTA CROWN AWD": require('../../assets/images/toyotacrown1.png'),
+    "TUNDRA 2WD": require('../../assets/images/toyotatundra.png'),
+    "NX 250": require('../../assets/images/Lexusnx250.png'),
+    "NX 350 AWD": require('../../assets/images/Lexusnx350.png'),//
+    "SEQUOIA 2WD": require('../../assets/images/toyotasequoia3.png'),//
   };
 
   return (
@@ -155,7 +249,7 @@ export default function App() {
               height: 204,
               marginTop: 24,
             }}
-            source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/model1camry.png')}
+            source={carImages[selectedCar.name]}
             resizeMode="cover"
           />
 
@@ -322,12 +416,12 @@ export default function App() {
                 <View style={styles.circle}>
                   <ImageBackground
                     style={styles.circleBackground}
-                    source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/ellipse4.png')}
+                   source={require('../../assets/images/ellipse4.png')}
                     resizeMode="cover"
                   >
                     <View style={styles.circleContent}>
                       <Text style={styles.circleText}>
-                        358{'\n'}City CO2
+                        {emissionsData ? emissionsData.CityCO2 + '\n': '0\n'}City CO2
                       </Text>
                     </View>
                   </ImageBackground>
@@ -337,12 +431,12 @@ export default function App() {
                 <View style={styles.circle}>
                   <ImageBackground
                     style={styles.circleBackground}
-                    source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/ellipse4.png')}
+                    source={require('../../assets/images/ellipse4.png')}
                     resizeMode="cover"
                   >
                     <View style={styles.circleContent}>
                       <Text style={styles.circleText}>
-                        321{'\n'}Combined{'\n'}CO2
+                        {emissionsData ? emissionsData.CombCO2 + '\n': '0\n'}Combined{'\n'}CO2
                       </Text>
                     </View>
                   </ImageBackground>
@@ -352,12 +446,12 @@ export default function App() {
                 <View style={styles.circle}>
                   <ImageBackground
                     style={styles.circleBackground}
-                    source={require('/Users/afsararif/Documents/HackUTD24/Suprahotfire/assets/images/ellipse4.png')}
+                    source={require('../../assets/images/ellipse4.png')}
                     resizeMode="cover"
                   >
                     <View style={styles.circleContent}>
                       <Text style={styles.circleText}>
-                        275{'\n'}Highway{'\n'}CO2
+                        {emissionsData ? emissionsData.HwyCO2 + '\n' : '0\n'}Highway{'\n'}CO2
                       </Text>
                     </View>
                   </ImageBackground>

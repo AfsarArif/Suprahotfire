@@ -1,0 +1,723 @@
+[{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba1"
+  },
+  "Model Year": 2021,
+  "Division": "TOYOTA",
+  "Carline": "COROLLA",
+  "Index (Model Type Index)": 2,
+  "Eng Displ": 1.8,
+  "City FE (Guide) - Conventional Fuel": 30,
+  "Hwy FE (Guide) - Conventional Fuel": 38,
+  "Comb FE (Guide) - Conventional Fuel": 33,
+  "Estimated Weight": 2955,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549760013733919/Corolla.jpeg?ex=673ab61b&is=6739649b&hm=d1702e32221d65a1d3f5c105f9592e434db4ef58753b2b3bad3617c94a0a653e&=&width=604&height=334"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba2"
+  },
+  "Model Year": 2021,
+  "Division": "LEXUS",
+  "Carline": "ES 250 AWD",
+  "Index (Model Type Index)": 116,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 25,
+  "Hwy FE (Guide) - Conventional Fuel": 34,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3737,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759799558225/es250.jpeg?ex=673ab61b&is=6739649b&hm=ff2e31b2a656d101c992730901d7651009aa9cc58a3c4aa4074240d56d27be27&=&width=664&height=304"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba3"
+  },
+  "Model Year": 2021,
+  "Division": "LEXUS",
+  "Carline": "ES 300h",
+  "Index (Model Type Index)": 93,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 43,
+  "Hwy FE (Guide) - Conventional Fuel": 44,
+  "Comb FE (Guide) - Conventional Fuel": 44,
+  "Estimated Weight": 3730,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759610818560/es300h.jpeg?ex=673ab61b&is=6739649b&hm=37442e5e74632af545120b2a1bcfafdd1029cbdae6627d188113cbf137198a8e&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba4"
+  },
+  "Model Year": 2021,
+  "Division": "LEXUS",
+  "Carline": "ES 350",
+  "Index (Model Type Index)": 87,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3690,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759384453221/es350.jpeg?ex=673ab61b&is=6739649b&hm=bc70014d8c60f3784dfb85e72635570f23f29d4911f0a70e4b03dea85e35169b&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba5"
+  },
+  "Model Year": 2021,
+  "Division": "TOYOTA",
+  "Carline": "CAMRY",
+  "Index (Model Type Index)": 99,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3241,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759187324978/Camry.jpeg?ex=673ab61b&is=6739649b&hm=ff41579ee8d5022459cf6d06fe7fcaf0a309c508ea2896c9f367815b804a5740&=&width=670&height=300"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba6"
+  },
+  "Model Year": 2021,
+  "Division": "TOYOTA",
+  "Carline": "SEQUOIA 2WD",
+  "Index (Model Type Index)": 33,
+  "Eng Displ": 5.7,
+  "City FE (Guide) - Conventional Fuel": 13,
+  "Hwy FE (Guide) - Conventional Fuel": 17,
+  "Comb FE (Guide) - Conventional Fuel": 15,
+  "Estimated Weight": 5620,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549807149191258/Sequoia.jpeg?ex=673ab627&is=673964a7&hm=ef0b7aadce131a2085aceccb68b664969ccda985d19e0931667d6fc6f7b2686a&=&width=688&height=294"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba7"
+  },
+  "Model Year": 2022,
+  "Division": "TOYOTA",
+  "Carline": "COROLLA",
+  "Index (Model Type Index)": 1,
+  "Eng Displ": 1.8,
+  "City FE (Guide) - Conventional Fuel": 30,
+  "Hwy FE (Guide) - Conventional Fuel": 38,
+  "Comb FE (Guide) - Conventional Fuel": 33,
+  "Estimated Weight": 2955,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549760013733919/Corolla.jpeg?ex=673ab61b&is=6739649b&hm=d1702e32221d65a1d3f5c105f9592e434db4ef58753b2b3bad3617c94a0a653e&=&width=604&height=334"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba8"
+  },
+  "Model Year": 2022,
+  "Division": "LEXUS",
+  "Carline": "ES 250 AWD",
+  "Index (Model Type Index)": 37,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 25,
+  "Hwy FE (Guide) - Conventional Fuel": 34,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3737,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759799558225/es250.jpeg?ex=673ab61b&is=6739649b&hm=ff2e31b2a656d101c992730901d7651009aa9cc58a3c4aa4074240d56d27be27&=&width=664&height=304"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077ba9"
+  },
+  "Model Year": 2022,
+  "Division": "LEXUS",
+  "Carline": "ES 300h",
+  "Index (Model Type Index)": 38,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 43,
+  "Hwy FE (Guide) - Conventional Fuel": 44,
+  "Comb FE (Guide) - Conventional Fuel": 44,
+  "Estimated Weight": 3730,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759610818560/es300h.jpeg?ex=673ab61b&is=6739649b&hm=37442e5e74632af545120b2a1bcfafdd1029cbdae6627d188113cbf137198a8e&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077baa"
+  },
+  "Model Year": 2022,
+  "Division": "LEXUS",
+  "Carline": "ES 350",
+  "Index (Model Type Index)": 25,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3690,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759384453221/es350.jpeg?ex=673ab61b&is=6739649b&hm=bc70014d8c60f3784dfb85e72635570f23f29d4911f0a70e4b03dea85e35169b&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bab"
+  },
+  "Model Year": 2022,
+  "Division": "TOYOTA",
+  "Carline": "CAMRY",
+  "Index (Model Type Index)": 50,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3241,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759187324978/Camry.jpeg?ex=673ab61b&is=6739649b&hm=ff41579ee8d5022459cf6d06fe7fcaf0a309c508ea2896c9f367815b804a5740&=&width=670&height=300"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bac"
+  },
+  "Model Year": 2022,
+  "Division": "TOYOTA",
+  "Carline": "TUNDRA 2WD",
+  "Index (Model Type Index)": 138,
+  "Eng Displ": 3.4,
+  "City FE (Guide) - Conventional Fuel": 20,
+  "Hwy FE (Guide) - Conventional Fuel": 24,
+  "Comb FE (Guide) - Conventional Fuel": 22,
+  "Estimated Weight": 5095,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758654775397/Tundra.jpeg?ex=673ab61b&is=6739649b&hm=c5619f411ce71a76dfa4f822d2da9034a00d39df1d308707560bd539cc4e1671&=&width=508&height=396"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bad"
+  },
+  "Model Year": 2022,
+  "Division": "LEXUS",
+  "Carline": "NX 250",
+  "Index (Model Type Index)": 125,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 26,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3660,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758298128537/nx250.jpeg?ex=673ab61b&is=6739649b&hm=acac611d25f36aed1843af314988e7324fcf767eb56aea20f587a0a40f6ab49d&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bae"
+  },
+  "Model Year": 2022,
+  "Division": "LEXUS",
+  "Carline": "NX 350 AWD",
+  "Index (Model Type Index)": 129,
+  "Eng Displ": 2.4,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 29,
+  "Comb FE (Guide) - Conventional Fuel": 25,
+  "Estimated Weight": 4035,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758054989874/nx350.jpeg?ex=673ab61b&is=6739649b&hm=bc438feab87add9714235e8d81eab52839fd45670bafeeee5760884d286d5b5b&=&width=650&height=310"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077baf"
+  },
+  "Model Year": 2022,
+  "Division": "TOYOTA",
+  "Carline": "SEQUOIA 2WD",
+  "Index (Model Type Index)": 96,
+  "Eng Displ": 5.7,
+  "City FE (Guide) - Conventional Fuel": 13,
+  "Hwy FE (Guide) - Conventional Fuel": 17,
+  "Comb FE (Guide) - Conventional Fuel": 15,
+  "Estimated Weight": 5620,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549807149191258/Sequoia.jpeg?ex=673ab627&is=673964a7&hm=ef0b7aadce131a2085aceccb68b664969ccda985d19e0931667d6fc6f7b2686a&=&width=688&height=294"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb0"
+  },
+  "Model Year": 2023,
+  "Division": "TOYOTA",
+  "Carline": "COROLLA",
+  "Index (Model Type Index)": 49,
+  "Eng Displ": 2,
+  "City FE (Guide) - Conventional Fuel": 31,
+  "Hwy FE (Guide) - Conventional Fuel": 40,
+  "Comb FE (Guide) - Conventional Fuel": 34,
+  "Estimated Weight": 2955,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549760013733919/Corolla.jpeg?ex=673ab61b&is=6739649b&hm=d1702e32221d65a1d3f5c105f9592e434db4ef58753b2b3bad3617c94a0a653e&=&width=604&height=334"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb1"
+  },
+  "Model Year": 2023,
+  "Division": "LEXUS",
+  "Carline": "ES 250 AWD",
+  "Index (Model Type Index)": 38,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 25,
+  "Hwy FE (Guide) - Conventional Fuel": 34,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3737,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759799558225/es250.jpeg?ex=673ab61b&is=6739649b&hm=ff2e31b2a656d101c992730901d7651009aa9cc58a3c4aa4074240d56d27be27&=&width=664&height=304"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb2"
+  },
+  "Model Year": 2023,
+  "Division": "LEXUS",
+  "Carline": "ES 300h",
+  "Index (Model Type Index)": 39,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 43,
+  "Hwy FE (Guide) - Conventional Fuel": 44,
+  "Comb FE (Guide) - Conventional Fuel": 44,
+  "Estimated Weight": 3730,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759610818560/es300h.jpeg?ex=673ab61b&is=6739649b&hm=37442e5e74632af545120b2a1bcfafdd1029cbdae6627d188113cbf137198a8e&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb3"
+  },
+  "Model Year": 2023,
+  "Division": "LEXUS",
+  "Carline": "ES 350",
+  "Index (Model Type Index)": 26,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3690,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759384453221/es350.jpeg?ex=673ab61b&is=6739649b&hm=bc70014d8c60f3784dfb85e72635570f23f29d4911f0a70e4b03dea85e35169b&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb4"
+  },
+  "Model Year": 2023,
+  "Division": "TOYOTA",
+  "Carline": "CAMRY",
+  "Index (Model Type Index)": 53,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3241,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759187324978/Camry.jpeg?ex=673ab61b&is=6739649b&hm=ff41579ee8d5022459cf6d06fe7fcaf0a309c508ea2896c9f367815b804a5740&=&width=670&height=300"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb5"
+  },
+  "Model Year": 2023,
+  "Division": "TOYOTA",
+  "Carline": "TOYOTA CROWN AWD",
+  "Index (Model Type Index)": 145,
+  "Eng Displ": 2.4,
+  "City FE (Guide) - Conventional Fuel": 29,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 30,
+  "Estimated Weight": 3980,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758893719692/Crown.jpeg?ex=673ab61b&is=6739649b&hm=5270045f1b0d7c28cddde7c2ec7199ec1de299993742882af9090ea1609c17fe&=&width=552&height=364"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb6"
+  },
+  "Model Year": 2023,
+  "Division": "TOYOTA",
+  "Carline": "TUNDRA 2WD",
+  "Index (Model Type Index)": 17,
+  "Eng Displ": 3.4,
+  "City FE (Guide) - Conventional Fuel": 18,
+  "Hwy FE (Guide) - Conventional Fuel": 23,
+  "Comb FE (Guide) - Conventional Fuel": 20,
+  "Estimated Weight": 5095,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758654775397/Tundra.jpeg?ex=673ab61b&is=6739649b&hm=c5619f411ce71a76dfa4f822d2da9034a00d39df1d308707560bd539cc4e1671&=&width=508&height=396"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb7"
+  },
+  "Model Year": 2023,
+  "Division": "LEXUS",
+  "Carline": "NX 250",
+  "Index (Model Type Index)": 125,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 26,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3660,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758298128537/nx250.jpeg?ex=673ab61b&is=6739649b&hm=acac611d25f36aed1843af314988e7324fcf767eb56aea20f587a0a40f6ab49d&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb8"
+  },
+  "Model Year": 2023,
+  "Division": "LEXUS",
+  "Carline": "NX 350 AWD",
+  "Index (Model Type Index)": 130,
+  "Eng Displ": 2.4,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 28,
+  "Comb FE (Guide) - Conventional Fuel": 25,
+  "Estimated Weight": 4035,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758054989874/nx350.jpeg?ex=673ab61b&is=6739649b&hm=bc438feab87add9714235e8d81eab52839fd45670bafeeee5760884d286d5b5b&=&width=650&height=310"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bb9"
+  },
+  "Model Year": 2023,
+  "Division": "TOYOTA",
+  "Carline": "SEQUOIA 2WD",
+  "Index (Model Type Index)": 20,
+  "Eng Displ": 3.4,
+  "City FE (Guide) - Conventional Fuel": 21,
+  "Hwy FE (Guide) - Conventional Fuel": 24,
+  "Comb FE (Guide) - Conventional Fuel": 22,
+  "Estimated Weight": 5620,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549807149191258/Sequoia.jpeg?ex=673ab627&is=673964a7&hm=ef0b7aadce131a2085aceccb68b664969ccda985d19e0931667d6fc6f7b2686a&=&width=688&height=294"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bba"
+  },
+  "Model Year": 2024,
+  "Division": "TOYOTA",
+  "Carline": "COROLLA",
+  "Index (Model Type Index)": 98,
+  "Eng Displ": 2,
+  "City FE (Guide) - Conventional Fuel": 31,
+  "Hwy FE (Guide) - Conventional Fuel": 40,
+  "Comb FE (Guide) - Conventional Fuel": 34,
+  "Estimated Weight": 2955,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549760013733919/Corolla.jpeg?ex=673ab61b&is=6739649b&hm=d1702e32221d65a1d3f5c105f9592e434db4ef58753b2b3bad3617c94a0a653e&=&width=604&height=334"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bbb"
+  },
+  "Model Year": 2024,
+  "Division": "LEXUS",
+  "Carline": "ES 250 AWD",
+  "Index (Model Type Index)": 92,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 25,
+  "Hwy FE (Guide) - Conventional Fuel": 34,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3737,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759799558225/es250.jpeg?ex=673ab61b&is=6739649b&hm=ff2e31b2a656d101c992730901d7651009aa9cc58a3c4aa4074240d56d27be27&=&width=664&height=304"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bbc"
+  },
+  "Model Year": 2024,
+  "Division": "LEXUS",
+  "Carline": "ES 300h",
+  "Index (Model Type Index)": 93,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 43,
+  "Hwy FE (Guide) - Conventional Fuel": 44,
+  "Comb FE (Guide) - Conventional Fuel": 44,
+  "Estimated Weight": 3730,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759610818560/es300h.jpeg?ex=673ab61b&is=6739649b&hm=37442e5e74632af545120b2a1bcfafdd1029cbdae6627d188113cbf137198a8e&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bbd"
+  },
+  "Model Year": 2024,
+  "Division": "LEXUS",
+  "Carline": "ES 350",
+  "Index (Model Type Index)": 83,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3690,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759384453221/es350.jpeg?ex=673ab61b&is=6739649b&hm=bc70014d8c60f3784dfb85e72635570f23f29d4911f0a70e4b03dea85e35169b&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bbe"
+  },
+  "Model Year": 2024,
+  "Division": "TOYOTA",
+  "Carline": "CAMRY",
+  "Index (Model Type Index)": 109,
+  "Eng Displ": 3.5,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 26,
+  "Estimated Weight": 3241,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759187324978/Camry.jpeg?ex=673ab61b&is=6739649b&hm=ff41579ee8d5022459cf6d06fe7fcaf0a309c508ea2896c9f367815b804a5740&=&width=670&height=300"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bbf"
+  },
+  "Model Year": 2024,
+  "Division": "TOYOTA",
+  "Carline": "TOYOTA CROWN AWD",
+  "Index (Model Type Index)": 129,
+  "Eng Displ": 2.4,
+  "City FE (Guide) - Conventional Fuel": 29,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 30,
+  "Estimated Weight": 3980,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758893719692/Crown.jpeg?ex=673ab61b&is=6739649b&hm=5270045f1b0d7c28cddde7c2ec7199ec1de299993742882af9090ea1609c17fe&=&width=552&height=364"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc0"
+  },
+  "Model Year": 2024,
+  "Division": "TOYOTA",
+  "Carline": "TUNDRA 2WD",
+  "Index (Model Type Index)": 50,
+  "Eng Displ": 3.4,
+  "City FE (Guide) - Conventional Fuel": 18,
+  "Hwy FE (Guide) - Conventional Fuel": 23,
+  "Comb FE (Guide) - Conventional Fuel": 20,
+  "Estimated Weight": 5095,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758654775397/Tundra.jpeg?ex=673ab61b&is=6739649b&hm=c5619f411ce71a76dfa4f822d2da9034a00d39df1d308707560bd539cc4e1671&=&width=508&height=396"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc1"
+  },
+  "Model Year": 2024,
+  "Division": "LEXUS",
+  "Carline": "NX 250",
+  "Index (Model Type Index)": 4,
+  "Eng Displ": 2.5,
+  "City FE (Guide) - Conventional Fuel": 26,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3660,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758298128537/nx250.jpeg?ex=673ab61b&is=6739649b&hm=acac611d25f36aed1843af314988e7324fcf767eb56aea20f587a0a40f6ab49d&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc2"
+  },
+  "Model Year": 2024,
+  "Division": "LEXUS",
+  "Carline": "NX 350 AWD",
+  "Index (Model Type Index)": 14,
+  "Eng Displ": 2.4,
+  "City FE (Guide) - Conventional Fuel": 21,
+  "Hwy FE (Guide) - Conventional Fuel": 28,
+  "Comb FE (Guide) - Conventional Fuel": 24,
+  "Estimated Weight": 4035,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758054989874/nx350.jpeg?ex=673ab61b&is=6739649b&hm=bc438feab87add9714235e8d81eab52839fd45670bafeeee5760884d286d5b5b&=&width=650&height=310"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc3"
+  },
+  "Model Year": 2024,
+  "Division": "TOYOTA",
+  "Carline": "SEQUOIA 2WD",
+  "Index (Model Type Index)": 54,
+  "Eng Displ": 3.4,
+  "City FE (Guide) - Conventional Fuel": 21,
+  "Hwy FE (Guide) - Conventional Fuel": 24,
+  "Comb FE (Guide) - Conventional Fuel": 22,
+  "Estimated Weight": 5620,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549807149191258/Sequoia.jpeg?ex=673ab627&is=673964a7&hm=ef0b7aadce131a2085aceccb68b664969ccda985d19e0931667d6fc6f7b2686a&=&width=688&height=294"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc4"
+  },
+  "Model Year": 2025,
+  "Division": "LEXUS",
+  "Carline": "UX 300h",
+  "Index (Model Type Index)": 3,
+  "Eng Displ": 2,
+  "City CO2 Rounded Adjusted": 195,
+  "Hwy CO2 Rounded Adjusted": 214,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 204,
+  "City FE (Guide) - Conventional Fuel": 45,
+  "Hwy FE (Guide) - Conventional Fuel": 41,
+  "Comb FE (Guide) - Conventional Fuel": 43,
+  "Estimated Weight": 3455,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549757874372629/UX300h.jpeg?ex=673ab61b&is=6739649b&hm=523ecb9daabb3f739dcd6bcbc8e625c5a86862c6640fb8b8f47bef2ea9467929&=&width=636&height=318"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc5"
+  },
+  "Model Year": 2025,
+  "Division": "TOYOTA",
+  "Carline": "COROLLA",
+  "Index (Model Type Index)": 50,
+  "Eng Displ": 2,
+  "City CO2 Rounded Adjusted": 277,
+  "Hwy CO2 Rounded Adjusted": 216,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 254,
+  "City FE (Guide) - Conventional Fuel": 32,
+  "Hwy FE (Guide) - Conventional Fuel": 41,
+  "Comb FE (Guide) - Conventional Fuel": 35,
+  "Estimated Weight": 2955,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549760013733919/Corolla.jpeg?ex=673ab61b&is=6739649b&hm=d1702e32221d65a1d3f5c105f9592e434db4ef58753b2b3bad3617c94a0a653e&=&width=604&height=334"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc6"
+  },
+  "Model Year": 2025,
+  "Division": "LEXUS",
+  "Carline": "ES 250 AWD",
+  "Index (Model Type Index)": 80,
+  "Eng Displ": 2.5,
+  "City CO2 Rounded Adjusted": 365,
+  "Hwy CO2 Rounded Adjusted": 265,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 320,
+  "City FE (Guide) - Conventional Fuel": 24,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3737,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759799558225/es250.jpeg?ex=673ab61b&is=6739649b&hm=ff2e31b2a656d101c992730901d7651009aa9cc58a3c4aa4074240d56d27be27&=&width=664&height=304"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc7"
+  },
+  "Model Year": 2025,
+  "Division": "LEXUS",
+  "Carline": "ES 300h",
+  "Index (Model Type Index)": 86,
+  "Eng Displ": 2.5,
+  "City CO2 Rounded Adjusted": 204,
+  "Hwy CO2 Rounded Adjusted": 200,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 200,
+  "City FE (Guide) - Conventional Fuel": 43,
+  "Hwy FE (Guide) - Conventional Fuel": 44,
+  "Comb FE (Guide) - Conventional Fuel": 44,
+  "Estimated Weight": 3730,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759610818560/es300h.jpeg?ex=673ab61b&is=6739649b&hm=37442e5e74632af545120b2a1bcfafdd1029cbdae6627d188113cbf137198a8e&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc8"
+  },
+  "Model Year": 2025,
+  "Division": "LEXUS",
+  "Carline": "ES 350",
+  "Index (Model Type Index)": 76,
+  "Eng Displ": 3.5,
+  "City CO2 Rounded Adjusted": 405,
+  "Hwy CO2 Rounded Adjusted": 276,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 347,
+  "City FE (Guide) - Conventional Fuel": 22,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 25,
+  "Estimated Weight": 3690,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759384453221/es350.jpeg?ex=673ab61b&is=6739649b&hm=bc70014d8c60f3784dfb85e72635570f23f29d4911f0a70e4b03dea85e35169b&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bc9"
+  },
+  "Model Year": 2025,
+  "Division": "TOYOTA",
+  "Carline": "CAMRY HEV AWD LE",
+  "Index (Model Type Index)": 59,
+  "Eng Displ": 2.5,
+  "City CO2 Rounded Adjusted": 174,
+  "Hwy CO2 Rounded Adjusted": 182,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 177,
+  "City FE (Guide) - Conventional Fuel": 51,
+  "Hwy FE (Guide) - Conventional Fuel": 49,
+  "Comb FE (Guide) - Conventional Fuel": 50,
+  "Estimated Weight": 3241,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549759187324978/Camry.jpeg?ex=673ab61b&is=6739649b&hm=ff41579ee8d5022459cf6d06fe7fcaf0a309c508ea2896c9f367815b804a5740&=&width=670&height=300"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bca"
+  },
+  "Model Year": 2025,
+  "Division": "TOYOTA",
+  "Carline": "TOYOTA CROWN AWD",
+  "Index (Model Type Index)": 98,
+  "Eng Displ": 2.4,
+  "City CO2 Rounded Adjusted": 303,
+  "Hwy CO2 Rounded Adjusted": 272,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 293,
+  "City FE (Guide) - Conventional Fuel": 29,
+  "Hwy FE (Guide) - Conventional Fuel": 32,
+  "Comb FE (Guide) - Conventional Fuel": 30,
+  "Estimated Weight": 3980,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758893719692/Crown.jpeg?ex=673ab61b&is=6739649b&hm=5270045f1b0d7c28cddde7c2ec7199ec1de299993742882af9090ea1609c17fe&=&width=552&height=364"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bcb"
+  },
+  "Model Year": 2025,
+  "Division": "TOYOTA",
+  "Carline": "TUNDRA 2WD",
+  "Index (Model Type Index)": 36,
+  "Eng Displ": 3.4,
+  "City CO2 Rounded Adjusted": 493,
+  "Hwy CO2 Rounded Adjusted": 379,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 442,
+  "City FE (Guide) - Conventional Fuel": 18,
+  "Hwy FE (Guide) - Conventional Fuel": 23,
+  "Comb FE (Guide) - Conventional Fuel": 20,
+  "Estimated Weight": 5095,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758654775397/Tundra.jpeg?ex=673ab61b&is=6739649b&hm=c5619f411ce71a76dfa4f822d2da9034a00d39df1d308707560bd539cc4e1671&=&width=508&height=396"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bcc"
+  },
+  "Model Year": 2025,
+  "Division": "LEXUS",
+  "Carline": "NX 250",
+  "Index (Model Type Index)": 5,
+  "Eng Displ": 2.5,
+  "City CO2 Rounded Adjusted": 345,
+  "Hwy CO2 Rounded Adjusted": 269,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 311,
+  "City FE (Guide) - Conventional Fuel": 26,
+  "Hwy FE (Guide) - Conventional Fuel": 33,
+  "Comb FE (Guide) - Conventional Fuel": 28,
+  "Estimated Weight": 3660,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758298128537/nx250.jpeg?ex=673ab61b&is=6739649b&hm=acac611d25f36aed1843af314988e7324fcf767eb56aea20f587a0a40f6ab49d&=&width=472&height=426"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bcd"
+  },
+  "Model Year": 2025,
+  "Division": "LEXUS",
+  "Carline": "NX 350 AWD",
+  "Index (Model Type Index)": 9,
+  "Eng Displ": 2.4,
+  "City CO2 Rounded Adjusted": 414,
+  "Hwy CO2 Rounded Adjusted": 317,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 370,
+  "City FE (Guide) - Conventional Fuel": 21,
+  "Hwy FE (Guide) - Conventional Fuel": 28,
+  "Comb FE (Guide) - Conventional Fuel": 24,
+  "Estimated Weight": 4035,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549758054989874/nx350.jpeg?ex=673ab61b&is=6739649b&hm=bc438feab87add9714235e8d81eab52839fd45670bafeeee5760884d286d5b5b&=&width=650&height=310"
+},
+{
+  "_id": {
+    "$oid": "6739c8d34437077447077bce"
+  },
+  "Model Year": 2025,
+  "Division": "TOYOTA",
+  "Carline": "SEQUOIA 2WD",
+  "Index (Model Type Index)": 39,
+  "Eng Displ": 3.4,
+  "City CO2 Rounded Adjusted": 430,
+  "Hwy CO2 Rounded Adjusted": 370,
+  "Comb CO2 Rounded Adjusted (as shown on FE Label)": 403,
+  "City FE (Guide) - Conventional Fuel": 21,
+  "Hwy FE (Guide) - Conventional Fuel": 24,
+  "Comb FE (Guide) - Conventional Fuel": 22,
+  "Estimated Weight": 5620,
+  "Image URL": "https://media.discordapp.net/attachments/1170436093305430188/1307549807149191258/Sequoia.jpeg?ex=673ab627&is=673964a7&hm=ef0b7aadce131a2085aceccb68b664969ccda985d19e0931667d6fc6f7b2686a&=&width=688&height=294"
+}]
